@@ -43,7 +43,38 @@
 
 
 
-</header>
+
+
+
+
+   
+
+
+
+  <footer>
+    <p><small>&copy; 2024 MADZ Attendance</small></p>
+    <p> <small><small><small>This presentation is protected by U.S. and International copyright laws. Reproduction and distribution of this presentation without permission from Anthony Nelson is prohibited.<small/></small></small> </p2>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script>
+  // Function to show the home tab content on page load
+  function showHomeTab() {
+    // Hide all tab contents
+    var tabContents = document.querySelectorAll('.tab-content');
+    tabContents.forEach(function(tabContent) {
+      tabContent.style.display = 'none';
+    });
+
+    // Show the home tab content
+    document.getElementById('home').style.display = 'block';
+  }
+
+  // Call the function to show the home tab content on page load
+  window.onload = showHomeTab;
+
+</script>
 
 
 
