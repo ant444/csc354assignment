@@ -20,7 +20,7 @@ header {
 
 
 .tab-button {
-  /* background-color: #333; */ Removed for test
+  /* background-color: #333; Removed for test */
   border: none;
   padding: 10px 20px;
   cursor: pointer;
