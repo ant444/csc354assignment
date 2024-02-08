@@ -20,12 +20,16 @@ header {
 
 
 .tab-button {
-  background-color: #333;
+  /* background-color: #333; */ Removed for test
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
   margin-right: 10px;
+  /* Newly added for test */
+  background-color: transparent;
+  font-weight: bold;
+  color: white;
 }
 
 /* Active tab button style */
@@ -37,10 +41,6 @@ header {
 .tab-content {
   display: none;
   padding: 20px;
-  /* Newly added for test */
-  background-color: transparent;
-  font-weight: bold;
-  color: white;
 }
 
 /* Show the active tab content */
