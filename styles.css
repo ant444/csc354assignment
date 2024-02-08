@@ -40,7 +40,7 @@ header {
   /* Newly added for test */
   background-color: transparent;
   font-weight: bold;
-  font-color: white;
+  color: white;
 }
 
 /* Show the active tab content */
